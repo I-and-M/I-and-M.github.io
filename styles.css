@@ -1,0 +1,68 @@
+/* General styling for the body */
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* Styling for the login container */
+.login-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+/* Title styling */
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+.login-container button {
+    background-color: #00b5ad;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    cursor: pointer;
+}
+
+/* Styling for the links */
+.login-container a {
+    color: #00b5ad;
+    text-decoration: none;
+}
+
+/* Styling for the privacy text */
+.login-container .privacy {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+/* Hidden input styling (optional) */
+.hidden-input {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+}

